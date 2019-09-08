@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "worker-transferable-perfs",
+  "version": "1.0.0",
+  "description": "A simple demo to feel the power of Transferable in Web Workers.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "server": "node node_modules/@tangbc/tiny-node-server"
+  },
+  "tinyNodeServer": {
+    "port": "8090",
+    "root": "./",
+    "logLevel": 0
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangbc/worker-transferable-perfs.git"
+  },
+  "keywords": [
+    "web-worker",
+    "transferable"
+  ],
+  "author": "TANG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangbc/worker-transferable-perfs/issues"
+  },
+  "homepage": "https://github.com/tangbc/worker-transferable-perfs#readme",
+  "devDependencies": {
+    "@tangbc/tiny-node-server": "^1.0.7"
+  }
+}

@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  font-family: serif;
+  font-size: 16px;
+}
+button {
+  display: inline-block;
+  background: linear-gradient(#F9F9F9 40%, #E3E3E3 70%);
+  border: 1px solid #999;
+  border-radius: 3px;
+  width: 6em;
+  padding: .4em 0;
+  outline: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  margin-right: 2em;
+}
+input[type=number] {
+  width: 70px;
+  outline: none;
+}
+em {
+  margin: 0 1em;
+  color: #ccc;
+}
+h2 {
+  margin: 0;
+  font-weight: 300;
+}
+article {
+  min-width: 360px;
+  position: absolute;
+  top: 2em;
+  left: 20%;
+  right: 20%;
+}
+section {
+  position: relative;
+  padding-bottom: 1em;
+}
+section a {
+  position: absolute;
+  right: 0;
+}
+#result {
+  min-width: 360px;
+  position: absolute;
+  top: 7.5em;
+  left: 20%;
+  right: 20%;
+  bottom: 2em;
+  overflow: auto;
+  border: 1px dashed #a9a9a9;
+  border-radius: 3px;
+  padding: 0 1em;
+}
